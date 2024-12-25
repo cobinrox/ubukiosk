@@ -17,7 +17,7 @@ echo "wo:password" | sudo chpasswd
 ## Copy the repo's home/wo files to new user's home directory
 1. Copy the repo's `home/wo/.dmrc` file to your new user's `/home/yourNewUser/.dmrc`.  This file tells Ubuntu's `lampdm` to use `openbox` as a window manager.  This limits what the new user has access to when they log in.
 2. Copy the repo's `home/wo/.config` dir and contents to your new user's `/home/yourNewUser/.config` directory.  These files limit what is available to the new user: basically the VLC app runs and when the user closes the app, the system will shutdown or log out the user.  It also prevents the nag screen about Ubuntu updates from popping up and limits the right mouse click to just an "Exit" option, preventing the user from accessing other pop-up apps that are otherwise available via openbox.
-3. Ensure that all the copied files are set yourNewUser:
+3. Ensure that all the copied files are set to `yourNewUser`:
 
 ```
 sudo chown -R yourNewUser:yourNewUser /home/yourNewUser/.dmrc
