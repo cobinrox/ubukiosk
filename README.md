@@ -24,5 +24,5 @@ sudo chown -R yourNewUser:yourNewUser /home/yourNewUser/.dmrc
 sudo chown -R yourNewUser:yourNewUser /home/yourNewUser/.config
 ```
 ## Sample Screenshot
-When you login as the new user, you should see something like this.  Note that the Rright Mouse Click "Exit" option is shown in the figure below in the right side, just to show what that looks like.
+When you login as the new user, you should see something like this, where VLC is running and no other apps are  visible.  Note that in the figure, on the right side, there is a tiny little blob that looks like a lttle white chicklet-- this is what appears when the user tries clicking the right mouse button out on the desktop.  The above .config/openbox files cut down the openbox options to just the Exit option.
 <img src="./smple_kiosk.jpg" width="200" height="200">
