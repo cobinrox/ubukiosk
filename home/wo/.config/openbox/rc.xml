@@ -1,0 +1,23 @@
+<keyboard>
+    <!--
+    <keybind key="C-A-t">
+        <action name="Execute">
+            <command>gnome-terminal</command>
+        </action>
+    </keybind>
+
+    <keybind key="A-F2">
+        <action name="Execute">
+            <command>gmrun</command>
+        </action>
+    </keybind>
+    -->
+
+    <!-- Allow only the shutdown shortcut -->
+    <keybind key="A-S">
+        <action name="Execute">
+            <command>shutdown now</command>
+        </action>
+    </keybind>
+</keyboard>
+
