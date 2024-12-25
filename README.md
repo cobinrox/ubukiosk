@@ -25,4 +25,4 @@ sudo chown -R yourNewUser:yourNewUser /home/yourNewUser/.config
 ```
 ## Sample Screenshot
 When you login as the new user, you should see something like this.  Note that the Rright Mouse Click "Exit" option is shown in the figure below in the right side, just to show what that looks like.
-<img src="./simple_kiosk.jpg" width="200" height="200">
+<img src="./smple_kiosk.jpg" width="200" height="200">
